@@ -4,12 +4,16 @@
 #define sn struct node
 #define sc(x) scanf("%d",&x)
 #define p(x) printf(x)
+
+//Structure of a node
+//It conntains a data element and a link
 struct node
 {
     int data;
     sn *link;
 };
 
+//This is the head of the linked list
 sn *head = NULL;
 
 void print(sn *r)
