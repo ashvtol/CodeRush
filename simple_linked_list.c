@@ -2,6 +2,7 @@
 #include<stdlib.h>
 #include<math.h>
 #define sn struct node
+//scanf and printf functions defined as macros
 #define sc(x) scanf("%d",&x)
 #define p(x) printf(x)
 
@@ -54,6 +55,8 @@ void create()
     }
 }
 
+
+//gets the size of the linked list
 int getsize(sn *r)
 {
     int ct = 0;
@@ -65,6 +68,8 @@ int getsize(sn *r)
 
     return ct;
 }
+
+
 
 void insert()
 {
@@ -117,6 +122,7 @@ void insert()
     }
 
 }
+
 
 void del()
 {
