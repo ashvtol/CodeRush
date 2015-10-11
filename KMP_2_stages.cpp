@@ -109,6 +109,8 @@ void kmp(string &s, string &p, int *pre)
     }
 }
 
+
+/*Program Runner*/
 int main()
 {
     string sequence = "hackhackhackhackithackerearth";
